@@ -27,7 +27,8 @@ input.search-box {
     border-radius: 10px;
     border: none;
     background-color: transparent;
-    color: #FFFFFF;
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
 }
 
 input::placeholder {
@@ -35,7 +36,9 @@ input::placeholder {
     font-size: 14.77px;
     font-weight: 400;
     line-height: 17.87px;
+    padding: 10px;
 }
+
 
 .logo {
     margin: auto;
@@ -281,6 +284,7 @@ input::placeholder {
     display: flex;
     margin: 100px;
     position: relative;
+    border-radius: 10px 0px 0px 10px;
 }
 
 
@@ -322,10 +326,11 @@ input::placeholder {
     width: 167.86px;
     height: 62px;
     border-radius: 12px;
+    font-size: 14.41px;
     border: none;
-    opacity: 0px;
     background-color: #EB662B;
     color: white;
+    margin-top: 30px;
 }
 
 .attractions {
@@ -377,6 +382,64 @@ input::placeholder {
     line-height: 26.25px;
     text-align: left;
 }
+
+.review-background {
+    background-image: url('/Assets/Images/Review-background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.review-section h2 {
+    text-align: center;
+    margin: 10px 300px;
+    font-size: 29.53px;
+    font-weight: 700;
+
+}
+
+.review {
+    text-align: center;
+    margin: 10px 300px;
+    padding: 50px;
+}
+.review-text {
+    padding: 20px;
+}
+
+.review-circle {
+    height: 46px;
+    width: 46px;
+    background-color: #EB662B;
+    border-radius: 50%;
+    padding: 15px;
+    position: absolute;
+    top: 2860px;
+    left: 610px;
+}
+.review-circle img {
+    margin: auto;
+}
+.review img {
+    margin-bottom: 15px;
+    position: relative;
+}
+.review p {
+    font-size: 19.53px;
+    font-weight: 500;
+    line-height: 37.5px;
+    text-align: center;
+}
+.review-name {
+    padding: 10px;
+    color: #05073C;
+    font-size: 15.75px;
+    font-weight: 500;
+    line-height: 25.6px;
+}
+
+
+
 
 /* black-myke */
 
