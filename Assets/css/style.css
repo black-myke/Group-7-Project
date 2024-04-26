@@ -7,7 +7,7 @@
 }
 
 header {
-    background: url('Assets/Images/background-image.png');
+    background-image: url('Assets/Images/background-image.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
