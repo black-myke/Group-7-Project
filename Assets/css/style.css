@@ -135,6 +135,7 @@ input::placeholder {
     background-color: #EB662B0D;
     border-radius: 50px 50px 0px 0px;
     padding: 90px;
+    height: 800px;
 }
 .featured-head {
     display: flex;
@@ -279,7 +280,7 @@ input::placeholder {
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
-    margin: 100px;
+    margin: 150px;
     position: relative;
 }
 
@@ -484,7 +485,7 @@ input::placeholder {
 
 .trips-overly {
     position: absolute;
-    top: 124%;
+    top: 3350px;
     left: 9%;
     border-radius: 20px;
     background-color: #FFFFFF;
@@ -495,8 +496,8 @@ input::placeholder {
 }
 .trips-overly-2 {
     position: absolute;
-    top: 124%;
-    left: 38.5%;
+    top: 3350px;
+    left: 500px;
     border-radius: 20px;
     background-color: #FFFFFF;
     font-size: 14px;
@@ -506,8 +507,8 @@ input::placeholder {
 }
 .trips-overly-3 {
     position: absolute;
-    top: 124%;
-    left: 68%;
+    top: 3350px;
+    left: 890px;
     border-radius: 20px;
     background-color: #FFFFFF;
     font-size: 14px;
