@@ -1,0 +1,255 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+.booking {
+    background-image: url('/Assets/Images/Frame.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.booking {
+    color: #ffff;
+    font-family: "Inter", sans-serif;
+}
+
+.booking-1 h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 39.53px;
+    line-height: 52px;
+}
+
+.booking-1 {
+    padding: 0px 60px;
+    margin: auto;
+}
+.booking-1 p {
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 29px;
+}
+
+.form p {
+    font-size: 17.58px;
+    font-weight: 400;
+    line-height: 33.75px;
+    text-align: left;
+}
+
+.form input {
+    background: #FFFFFF;
+    border: 0px;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.form button {
+    background: #FFFFFF;
+    width: 100px;
+    height: 50px;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 14.65px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    color: #4A43C4;
+}
+
+.booking-img {
+    margin-right: 10px;
+}
+
+.article {
+    margin: 100px 100px;
+    color: #05073C;
+    font-family: "Inter", sans-serif;
+}
+
+.article-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-head h3 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.article-head a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-align: left;
+}
+
+
+.trips {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trips-img img {
+    width: 350px;
+    height: 230px;
+    border-radius: 12px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+
+.trips-overly {
+    position: absolute;
+    top: 124%;
+    left: 9%;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26.25px;
+    padding: 0px 10px;
+}
+.trips-overly-2 {
+    position: absolute;
+    top: 124%;
+    left: 38.5%;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26.25px;
+    padding: 0px 10px;
+}
+.trips-overly-3 {
+    position: absolute;
+    top: 124%;
+    left: 68%;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26.25px;
+    padding: 0px 10px;
+}
+
+.trips-date {
+    display: flex;
+    margin-bottom: 15px;
+}
+.trips-date p {
+    padding-right: 10px;
+    font-size: 14px;
+}
+.trips-p1 {
+    border-right: 2px solid #E7E6E6;
+}
+.trips-p2 {
+    padding-left: 10px;
+}
+
+
+.trips-img a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #05073C;
+}
+
+footer {
+    background-color: #EB662B0D;
+    font-family: "Inter", sans-serif;
+    padding: 0px 100px;
+}
+
+.experts {
+    color: black;
+    font-size: 19.69px;
+    font-weight: 500;
+    line-height: 37.5px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-bottom: 1px solid #EB662B26;
+}
+.tel {
+    color: orangered;
+}
+.experts a {
+    color: #05073C;
+    text-decoration: none;
+    font-size: 16.2px;
+    font-weight: 500;
+    line-height: 31.88px;
+    text-align: left;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px;
+}
+
+.footer-main h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+}
+
+.footer-main a {
+    font-size: 14.77px;
+    font-weight: 500;
+    line-height: 28.13px;
+    text-decoration: none;
+    color: #05073C;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 14.88px;
+    font-weight: 400;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 14.88px;
+    font-weight: 400;
+}
+
+.support {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 14.88px;
+    font-weight: 400;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 14.88px;
+    font-weight: 400;
+}
