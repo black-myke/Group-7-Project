@@ -7,11 +7,7 @@
 }
 
 header {
-<<<<<<< HEAD
-    background-image: url("../Images/background-image.png");
-=======
-    background-image: url('Assets/Images/background-image.png');
->>>>>>> c4546d26ca0b3c9b7b1c673d1c947e0a02a3bd7f
+    background-image: url('/Assets/Images/background-image.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -279,11 +275,7 @@ input::placeholder {
 }
 
 /* Cluvert */
-<<<<<<< HEAD
-.favorite {background-image: url("../Images/brown-background.png");
-=======
-.favorite {background-image: url('Assets/Images/brown-background.png');
->>>>>>> c4546d26ca0b3c9b7b1c673d1c947e0a02a3bd7f
+.favorite {background-image: url('/Assets/Images/brown-background.png');
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
@@ -389,11 +381,7 @@ input::placeholder {
 /* black-myke */
 
 .booking {
-<<<<<<< HEAD
-background-image: url('../Images/Frame.png');
-=======
-    background-image: url('Assets/Images/Frame.png');
->>>>>>> c4546d26ca0b3c9b7b1c673d1c947e0a02a3bd7f
+    background-image: url('/Assets/Images/Frame.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
