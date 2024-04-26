@@ -484,8 +484,8 @@ input::placeholder {
 
 .trips-overly {
     position: absolute;
-    top: 3350px;
-    left: 9%;
+    top: 3560px;
+    left: 120px;
     border-radius: 20px;
     background-color: #FFFFFF;
     font-size: 14px;
@@ -495,8 +495,8 @@ input::placeholder {
 }
 .trips-overly-2 {
     position: absolute;
-    top: 3350px;
-    left: 500px;
+    top: 3560px;
+    left: 520px;
     border-radius: 20px;
     background-color: #FFFFFF;
     font-size: 14px;
@@ -506,8 +506,8 @@ input::placeholder {
 }
 .trips-overly-3 {
     position: absolute;
-    top: 3350px;
-    left: 890px;
+    top: 3560px;
+    left: 900px;
     border-radius: 20px;
     background-color: #FFFFFF;
     font-size: 14px;
