@@ -7,7 +7,7 @@
 }
 
 header {
-    background-image: url('Assets/Images/background-image.png');
+    background: url('Assets/Images/background-image.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -276,7 +276,7 @@ input::placeholder {
 
 /* Cluvert */
 .favorite {
-    background-image: url('Assets/Images/brown-background.png');
+    background: url('Assets/Images/brown-background.png');
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
@@ -382,7 +382,7 @@ input::placeholder {
 /* black-myke */
 
 .booking {
-    background-image: url('Assets/Images/Frame.png');
+    background: url('/Assets/Images/Frame.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
