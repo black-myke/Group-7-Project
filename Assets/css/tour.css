@@ -273,6 +273,111 @@ input::placeholder {
     line-height: 24.38px;
 }
 
+/* Cluvert */
+.favorite {
+    background-image: url('/Assets/Images/brown-background.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    margin: 100px;
+    position: relative;
+}
+
+
+.favorite-head {
+    color: #05073C;
+    margin: auto;
+    padding: 50px;
+}
+
+.beach-img {
+    width: 600px;
+    height: 455px;
+}
+.favorite-img {
+    display: flex;
+}
+.favorite-img-overlay {
+    width: 40px;
+    height: 456px;
+    position: absolute;
+}
+
+.discount {
+    color: #EB662B;
+}
+
+.favorite-head h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+}
+.favorite-head p {
+    font-family: Inter;
+    font-size: 14.77px;
+    font-weight: 400;
+    line-height: 28.13px;
+}
+.favorite-head-btn {
+    width: 167.86px;
+    height: 62px;
+    border-radius: 12px;
+    border: none;
+    opacity: 0px;
+    background-color: #EB662B;
+    color: white;
+}
+
+.attractions {
+    padding: 150px;
+}
+.attraction-head {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.attraction-head a {
+    text-decoration: none;
+        color: #05073C;
+    font-size: 14.3px;
+    font-weight: 400;
+    line-height: 28.13px;
+}
+.attraction-head h4 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.attraction-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.attraction-img {
+    display: flex;
+}
+.attraction-img img {
+    width: 100px;
+    height: 100px;
+}
+.attraction-text {
+    margin: auto 20px;
+}
+.attraction-text h3 {
+    font-size: 17.72px;
+    font-weight: 500;
+    line-height: 27px;
+}
+.attraction-text p {
+    font-size: 13.23px;
+    font-weight: 400;
+    line-height: 26.25px;
+    text-align: left;
+}
+
 /* black-myke */
 
 .booking {
