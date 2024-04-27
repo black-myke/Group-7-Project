@@ -395,7 +395,7 @@ input::placeholder {
     margin: 10px 300px;
     font-size: 29.53px;
     font-weight: 700;
-
+    color: #05073C;
 }
 
 .review {
@@ -621,7 +621,7 @@ footer {
     border-bottom: 1px solid #EB662B26;
 }
 .tel {
-    color: orangered;
+    color: #EB662B;
 }
 .experts a {
     color: #05073C;
@@ -643,6 +643,7 @@ footer {
     font-weight: 600;
     line-height: 30px;
     text-align: left;
+    color: #05073C;
 }
 
 .footer-main a {
@@ -681,6 +682,73 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    font-size: 14.88px;
+}
+
+.newsletter h3 {
+    font-size: 19.53px;
+    font-weight: 550;
+    line-height: 30px;
+    text-align: left;
+    color: #05073C;
+}
+.newsletter p {
+    font-size: 14.65px;
     font-weight: 400;
+    line-height: 28.13px;
+    text-align: left;
+    color: #05073C;
+}
+
+.send-container {
+    margin-top: 20px;
+}
+
+.send-container input::placeholder {
+    color: #757575;
+    font-size: 14.53px;
+    font-weight: 400;
+    line-height: 17.59px;
+    text-align: left;
+}
+.letter-box {
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #E7E6E6;
+    position: relative;
+    padding: 10px;
+}
+
+
+.search-button {
+    font-size: 14.53px;
+    font-weight: 450;
+    line-height: 28.13px;
+    text-align: center;
+    color: #05073C;
+    background-color: transparent;
+    border: 0px;
+    position: absolute;
+    top: 4795px;
+    left: 1160px;
+}
+.mobile-apps {
+    margin-top: 30px;
+}
+
+.mobile-apps p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.sponsors-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    font-size: 14.53px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-align: left;
+    color: #05073C;
 }
