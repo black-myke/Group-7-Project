@@ -439,6 +439,69 @@ input::placeholder {
 }
 
 
+.tour {
+    height: 500px;
+    margin: 50px;
+}
+.tour h2 {
+    margin: 20px 0px;
+    color: #05073C;
+}
+.tour-content {
+    display: flex;
+    justify-content: space-between;
+}
+.tour-box img {
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+}
+.tour-circle {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 3450px;
+    margin-left: 250px;
+}
+.tour-place {
+    background-color: #FFFFFF;
+    border-radius: 20px 20px 10px 10px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0px 10px 40px 0px #0000000D;
+    position: absolute;
+    top: 3630px;
+}
+
+.tour-text {
+    padding: 10px;
+}
+.tour-text p {
+    color: #717171;
+    margin-left: 40px;
+    font-size: 11.98px;
+    font-weight: 400;
+    line-height: 24.38px;
+}
+.tour-text h3 {
+    color: #05073C;
+    font-size: 15.63px;
+    font-weight: 550;
+    line-height: 24px;
+    padding: 10px;
+}
+.tour-rate {
+    text-align: center;
+}
+.tour-price {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #E7E6E6;
+    margin: 10px;
+    padding: 10px;
+    color: #05073C;
+}
 
 
 /* black-myke */
@@ -547,30 +610,8 @@ input::placeholder {
 
 .trips-overly {
     position: absolute;
-    top: 4150px;
-    left: 120px;
-    border-radius: 20px;
-    background-color: #FFFFFF;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 26.25px;
-    padding: 0px 10px;
-}
-.trips-overly-2 {
-    position: absolute;
-    top: 4150px;
-    left: 500px;
-    border-radius: 20px;
-    background-color: #FFFFFF;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 26.25px;
-    padding: 0px 10px;
-}
-.trips-overly-3 {
-    position: absolute;
-    top: 4150px;
-    left: 890px;
+    top: 4700px;
+    margin-left: 20px;
     border-radius: 20px;
     background-color: #FFFFFF;
     font-size: 14px;
@@ -729,7 +770,7 @@ footer {
     background-color: transparent;
     border: 0px;
     position: absolute;
-    top: 4795px;
+    top: 5345px;
     left: 1160px;
 }
 .mobile-apps {
